@@ -1,3 +1,5 @@
+import { AccodionProject } from "./Accordion-Project/AccodionProject";
+import { accordionData } from "./Accordion-Project/utils/content";
 import { Calculator } from "./Calculator/Calculator";
 import { Counter } from "./Counter/Counter";
 import { Meal } from "./Meals/Meal";
@@ -28,7 +30,14 @@ export const App = () => {
       {/* <SearchHiddenBar /> */}
 
       {/* Testimonial project - 7  */}
-      <Testimonial />
+      {/* <Testimonial /> */}
+
+      {/* Accordion Project  */}
+      <div className="accordion">
+        {accordionData.map(({title , content})=>(
+          <AccodionProject title= {title} content={content} />
+        ))} 
+      </div>
     </div>
   );
 };
