@@ -2,6 +2,7 @@ import { Calculator } from "./Calculator/Calculator";
 import { Counter } from "./Counter/Counter";
 import { Meal } from "./Meals/Meal";
 import { Todos } from "./Todos/Todos";
+import { ToggleProject } from "./Toggle-Color/ToggleProject";
 
  
 export const App = () => {
@@ -18,7 +19,11 @@ export const App = () => {
        {/* <Meal /> */}
 
        {/* Calculator project  - 4 */}
-       <Calculator />
+       {/* <Calculator /> */}
+
+       {/* Toggle color project -5  */}
+
+       <ToggleProject />
     </div>
   );
 };
