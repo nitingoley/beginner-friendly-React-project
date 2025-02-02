@@ -1,4 +1,5 @@
-import { Counter } from "./components/Counter";
+import { Counter } from "./Counter/Counter";
+import { Meal } from "./Meals/Meal";
 import { Todos } from "./Todos/Todos";
 
  
@@ -9,7 +10,11 @@ export const App = () => {
       {/* this simple counter app  */}
        {/* <Counter />*/}
 
-       <Todos />
+       {/* this todo list project  */}
+       {/* <Todos /> */}
+
+       {/* This meal api fetching project  */}
+       <Meal />
     </div>
   );
 };
