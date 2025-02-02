@@ -1,0 +1,29 @@
+.testimonial-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .testimonial-nav button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #82e5ee;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  .testimonial-nav button:hover {
+    background-color: #037680;
+  }
+  
+  .testimonial-nav .prev-btn {
+    margin-right: 10px;
+  }
+  
+  .testimonial-nav .next-btn {
+    margin-left: 10px;
+  }
+  
